@@ -30,5 +30,6 @@ peline {
       success{
           junit 'target/surefire-reports/*.xml'
       }
+      jkkjk
  
     }

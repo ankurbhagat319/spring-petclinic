@@ -3,8 +3,8 @@ pipeline {
             label 'Build-server-1'
     }
     tools{
-        maven 'mymaven'
-        jdk 'java'
+        maven 'maven3'
+        jdk 'jdk8'
     }
     stages {
         stage('validate') {
